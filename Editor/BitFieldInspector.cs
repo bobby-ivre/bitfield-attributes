@@ -5,7 +5,7 @@
 // ushort, int or uint to enable the inspector. Takes either an enum
 // (recommended) or a string[] to add as labels.
 // ------------------------------------------------------------------------------------
-
+#if UNITY_EDITOR
 using System;
 using UnityEngine;
 using UnityEditor;
@@ -151,3 +151,4 @@ namespace LughNut.BitPacking
     }
 
 }
+#endif
