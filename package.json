@@ -1,0 +1,7 @@
+{
+  "name": "com.bobbygreaney.bitfield",
+  "displayName": "BitField Attributes",
+  "description": "Allows the creation of bitfields using the [Bitfield] attribute",
+  "version": "1.0.0",
+  "unity": "2019.2"
+}
