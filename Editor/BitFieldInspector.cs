@@ -1,12 +1,8 @@
-﻿// ------------------------------------------------------------------------------------
-// Creation Date: 15/01/21
-// Author: bgreaney
-// Description: Attribute for bit packing. Add to a byte, sbyte, short,
-// ushort, int or uint to enable the inspector. Takes either an enum
-// (recommended) or a string[] to add as labels.
-// ------------------------------------------------------------------------------------
-#if UNITY_EDITOR
-using System;
+﻿// ----------------------------------------------------------------------------------------------------------------------------------------
+// Creation Date:   15/01/21
+// Author:              bgreaney
+// ----------------------------------------------------------------------------------------------------------------------------------------
+
 using UnityEngine;
 using UnityEditor;
 
@@ -151,4 +147,3 @@ namespace LughNut.BitPacking
     }
 
 }
-#endif
